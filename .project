@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>clienteTarjetaCredito-ui-grails-scala</name>
+	<name>clientesTarjetaCredito-ui-grails-scala</name>
 	<comment></comment>
 	<projects>
 		<project>clienteTarjetaCredito-domain-scala</project>
@@ -27,7 +27,7 @@
 		<link>
 			<name>.link_to_grails_plugins</name>
 			<type>2</type>
-			<locationURI>GRAILS_ROOT/2.2.2/projects/cliente-ui-grails-scala-ref/plugins</locationURI>
+			<locationURI>GRAILS_ROOT/2.2.2/projects/clienteTarjetaCredito-ui-grails-scala/plugins</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
