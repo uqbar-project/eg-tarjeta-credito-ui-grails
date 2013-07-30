@@ -27,7 +27,7 @@
 		<link>
 			<name>.link_to_grails_plugins</name>
 			<type>2</type>
-			<locationURI>GRAILS_ROOT/2.2.2/projects/clienteTarjetaCredito-ui-grails-scala/plugins</locationURI>
+			<locationURI>GRAILS_ROOT/2.2.2/projects/clientesTarjetaCredito-ui-grails-scala/plugins</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
