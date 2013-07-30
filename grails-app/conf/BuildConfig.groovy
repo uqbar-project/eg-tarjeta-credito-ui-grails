@@ -43,7 +43,7 @@ grails.project.dependency.resolution = {
 		build "org.scala-lang:scala-compiler:$scalaVersion",
 				"org.scala-lang:scala-library:$scalaVersion"
 
-		build "ui.uqbar:clienteTarjetaCredito-domain-scala:1.0.0-SNAPSHOT"
+		build "ui.uqbar:clientesTarjetaCredito-domain-scala:1.0.0-SNAPSHOT"
         // runtime 'mysql:mysql-connector-java:5.1.22'
     }
 
