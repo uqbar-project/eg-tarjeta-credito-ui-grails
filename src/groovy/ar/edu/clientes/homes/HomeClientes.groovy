@@ -8,13 +8,9 @@ import ar.edu.clientes.exceptions.BusinessException
 
 @Singleton
 class HomeClientes {
-
-	Map clientes
 	
-	HomeClientes() {
-		clientes = generarClientes()
-	}
-
+	Map clientes = generarClientes()
+	
 	def getCliente(idCliente) {
 		def cliente = clientes.get(idCliente)
 		if (!cliente) {

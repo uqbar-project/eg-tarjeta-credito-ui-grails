@@ -14,54 +14,56 @@ grails.project.source.level = 1.6
 
 grails.project.dependency.resolver = "maven" // or ivy
 grails.project.dependency.resolution = {
-    // inherit Grails' default dependencies
-    inherits("global") {
-        // specify dependency exclusions here; for example, uncomment this to disable ehcache:
-        // excludes 'ehcache'
-    }
-    log "warn" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
-    checksums true // Whether to verify checksums on resolve
-    legacyResolve false // whether to do a secondary resolve on plugin installation, not advised and here for backwards compatibility
+	// inherit Grails' default dependencies
+	inherits("global") {
+		// specify dependency exclusions here; for example, uncomment this to disable ehcache:
+		// excludes 'ehcache'
+	}
+	log "warn" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
+	checksums true // Whether to verify checksums on resolve
+	legacyResolve false // whether to do a secondary resolve on plugin installation, not advised and here for backwards compatibility
 
-    repositories {
-        inherits true // Whether to inherit repository definitions from plugins
+	repositories {
+		inherits true // Whether to inherit repository definitions from plugins
 
-        grailsPlugins()
-        grailsHome()
-        grailsCentral()
-		
-        mavenLocal()
-        mavenCentral()
-        // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
-        //mavenRepo "http://snapshots.repository.codehaus.org"
-        //mavenRepo "http://repository.codehaus.org"
-        //mavenRepo "http://download.java.net/maven/2/"
-        //mavenRepo "http://repository.jboss.com/maven2/"
-    }
+		grailsPlugins()
+		grailsHome()
+		grailsCentral()
 
-    dependencies {
-        // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
+		mavenLocal()
+		mavenCentral()
+		// uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
+		//mavenRepo "http://snapshots.repository.codehaus.org"
+		//mavenRepo "http://repository.codehaus.org"
+		//mavenRepo "http://download.java.net/maven/2/"
+		//mavenRepo "http://repository.jboss.com/maven2/"
+	}
+
+	dependencies {
+		// specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
 		def scalaVersion = '2.10.2'
 		build "org.scala-lang:scala-compiler:$scalaVersion",
 				"org.scala-lang:scala-library:$scalaVersion"
 
 		build "org.uqbar-project:clientesTarjetaCredito-domain-scala:1.0.0-SNAPSHOT"
-        // runtime 'mysql:mysql-connector-java:5.1.22'
-    }
+		// runtime 'mysql:mysql-connector-java:5.1.22'
+	}
 
-    plugins {
-		build ":tomcat:7.0.52.1"
-		
+	plugins {
+		build ":tomcat:7.0.54"
+
 		// plugins for the compile step
-		compile ":scaffolding:2.0.3"
-		compile ":cache:1.1.2"
+		compile ":scaffolding:2.1.2"
+		compile ':cache:1.1.7'
+		compile ":asset-pipeline:1.8.11"
 		compile ":mysql-connectorj:5.1.22.1"
-		compile ":twitter-bootstrap:2.3.2"
+		compile ":twitter-bootstrap:3.2.0"
+		compile ":javascript-url-mappings:0.1.1"
 
 		// plugins needed at runtime but not for compilation
-		runtime ":hibernate:3.6.10.13" // or ":hibernate4:4.3.5.1"
+		runtime ":hibernate4:4.3.5.4" // or ":hibernate:3.6.10.16"
 		runtime ":database-migration:1.4.0"
-		runtime ":jquery:1.11.0.2"
-		runtime ":resources:1.2.7"
-    }
+		runtime ":jquery:1.11.1"
+		// compile ':mysql-connectorj:5.1.22.1'
+	}
 }
