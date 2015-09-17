@@ -5,7 +5,7 @@
 		</div>
 	</g:if>
 	<g:if test="${mensajeError}">
-		<div class="alert alert-error" id="mensajeError">
+		<div class="alert alert-danger" id="mensajeError">
 			${mensajeError}
 		</div>
 	</g:if>
