@@ -42,4 +42,4 @@ Tenés que tener instalado Maven, Scala y Grails.
 
 ## Arquitectura propuesta
 
-![Diagrama general de la arquitectura propuesta](doc/Arquitectura%20general.png)
+![Diagrama general de la arquitectura propuesta](docs/Arquitectura%20general%20Clientes%20TC%20scala.jpg)
