@@ -24,7 +24,6 @@ Tenés que tener instalado Maven, Scala y Grails.
 * Grails 2.4.2
 * en un entorno GGTS 3.6.0
 * con Twitter Boostrap 3.2.0
-* con Xtend 2.10.0 
 
 ## Características salientes
 
