@@ -1,0 +1,6 @@
+xtend/
+xtend-gen/
+src/java
+target*/
+bin/
+generated*
