@@ -13,11 +13,13 @@ de los clientes de una tarjeta de crédito, en la solución con el Decorator Pat
 * Los controllers y las vistas son propias de Grails
 
 ## Proyecto de dominio
-Tenés que tener instalado Maven, Scala y Grails. 
+Tenés que tener instalado Maven, Scala y Grails. Descargate el proyecto de github e instalalo localmente. En un Eclipse tenés que hacer Run > Maven Install, o bien desde un Git Bash en Windows o una línea de comandos Linux/Mac:
 
-* https://xp-dev.com/svn/uqbar/examples/dds/objetos-patrones/clientesTarjetaCredito/clientesTarjetaCredito-domain-scala/decorators/ 
-
-(ojo, no es el tag trunk): una vez descargado, tenés que hacer Run > Maven Install.
+```bash
+$ git clone https://github.com/uqbar-project/eg-tarjeta-credito-scala
+$ git checkout decorator
+$ mvn clean install
+```
 
 ## Versión del proyecto de Grails
 
