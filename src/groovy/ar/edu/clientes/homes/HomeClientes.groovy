@@ -31,7 +31,7 @@ class HomeClientes {
 			1: new ClientePosta("Swiss medical", 1500),
 			2: new ClienteSafeShop(new ClientePosta("SIEMENS", 0), 500),
 			3: new ClientePromocion(new ClientePosta("Jodor S.A.", 250)),
-			4: new ClienteSafeShop(new ClientePosta("Matanga Hermanos", 780), 600),
+			4: new ClienteSafeShop(new ClientePosta("Matanga Hermanos", 780), 400),
 			5: new ClientePosta("Ocho Cientos", 800)
 		]
 	}
