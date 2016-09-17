@@ -1,6 +1,6 @@
 # Clientes de tarjeta de crédito - Grails con decorators en Scala
 
-<img src="video/demo.gif" height="150px" width="150px"/>
+<img src="video/demo.gif" height="350px" width="450px"/>
 
 ## Explicación
 
