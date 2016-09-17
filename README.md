@@ -5,13 +5,6 @@
 Este ejemplo permite mostrar la integración entre Grails y Scala, implementando el conocido ejercicio didáctico
 de los clientes de una tarjeta de crédito, en la solución con el Decorator Pattern. 
 
-## Consideraciones
-
-* [Instalar el plugin de Xtend](http://uqbar-wiki.org/index.php?title=Integraci%C3%B3n_Grails_con_Xtend)
-* El objeto de dominio está en Xtend
-* También el repositorio (objeto de acceso a datos)
-* Los controllers y las vistas son propias de Grails
-
 ## Proyecto de dominio
 Tenés que tener instalado Maven, Scala y Grails. Descargate el proyecto de github e instalalo localmente. En un Eclipse tenés que hacer Run > Maven Install, o bien desde un Git Bash en Windows o una línea de comandos Linux/Mac:
 
