@@ -1,5 +1,7 @@
 # Clientes de tarjeta de crédito - Grails con decorators en Scala
 
+<img src="video/demo.gif" height="150px" width="150px"/>
+
 ## Explicación
 
 Este ejemplo permite mostrar la integración entre Grails y Scala, implementando el conocido ejercicio didáctico
