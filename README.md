@@ -10,6 +10,7 @@ Tenés que tener instalado Maven, Scala y Grails. Descargate el proyecto de gith
 
 ```bash
 $ git clone https://github.com/uqbar-project/eg-tarjeta-credito-scala
+$ cd eg-tarjeta-credito-scala/
 $ git checkout decorator
 $ mvn clean install
 ```
